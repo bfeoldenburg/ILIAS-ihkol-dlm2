@@ -32,16 +32,24 @@
 
 	.panel-heading.ilHeader,
 	.panel-heading.ilBlockHeader {
-		background-color: $il-main-dark-bg;
+		background-color: #003366; //$il-main-dark-bg;
 		margin: 0;
 		border: none;
 
 		h2, h2.ilHeader {
 			margin: 0;
-			color: ls.$il-panel-heading-color;
+			color: #efefef; //ls.$il-panel-heading-color;
 			font-size: $il-font-size-xlarge;
 			line-height: $il-line-height-large;
 			font-weight: $il-font-weight-bold;
+		}
+
+		h3, h3.ilHeader {
+			margin: 0;
+			color: #ef9f7c; //ls.$il-panel-heading-color;
+			//font-size: $il-font-size-xlarge;
+			//line-height: $il-line-height-large;
+			//font-weight: $il-font-weight-bold;
 		}
 
 		h4, h4.ilBlockHeader {
